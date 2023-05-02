@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "projects": {
+    "fechas-lib": {
+      "type": "library",
+      "root": "libs/fechas-lib",
+      "entryFile": "index",
+      "sourceRoot": "libs/fechas-lib/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/fechas-lib/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
